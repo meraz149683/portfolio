@@ -24,13 +24,14 @@
         color: #181818;
         font-size: 35px;
         font-weight: 700;
-        align-items: center;
+        /* align-items: center; */
+        text-align: center;
     }
 .section-description{
     color: #757575;
     font-size: 18px;
     font-weight: 400;
-    align-items: center;
+    text-align: center;
 
 }
 /* nav related style */
@@ -96,6 +97,10 @@ nav a{
 }
 
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* about section style */
 .About{
@@ -103,5 +108,11 @@ nav a{
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0px;
-
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
