@@ -149,3 +149,15 @@ main section{
     display: flex;
     gap: 50px;
 }
+/* download cv button */
+.download-cv{
+    text-align: center;
+    margin: 50px 450px;
+}
+footer{
+    display: flex;
+    background-color: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    /* justify-content: space-between; */
+}
